@@ -1,0 +1,114 @@
+body{
+background-image: url(tinywow_pixil-frame-0\ \(74\)_64341478.png);
+background-size: cover;
+background-repeat: no-repeat;
+
+text-align: center;
+
+
+font-family: "Pixelify Sans", sans-serif;
+
+
+
+
+
+}
+::-moz-selection { /* Code for Firefox */
+    color: rgba(255, 0, 0, 0);
+    background: rgba(255, 255, 0, 0);
+    }
+    
+    ::selection {
+    color: rgba(255, 0, 0, 0);
+    background: rgba(255, 255, 0, 0);
+    }
+html{
+height: 102%;
+
+}
+#ptman{
+width: 50px;
+height: 50px;
+position: absolute;
+left: 80%;
+top: 10%;
+transition: 1s;
+transform: translate(-50%,-50%) ;
+
+pointer-events: none;
+}
+#map{
+width: 100%;
+
+}
+#Item_game{
+
+width: 500px;
+margin: auto;
+/* this property hels the main character to allign in a map */
+position: relative;
+
+}
+h1{
+    background: rgb(254,175,255);
+    background: linear-gradient(90deg, rgba(254,175,255,1) 0%, rgba(150,0,129,1) 49%, rgba(249,132,255,1) 77%, rgba(255,0,198,1) 100%);
+background-clip: text;
+color: transparent;
+width: 160px;
+margin: auto;
+font-size: 50px;
+}
+
+#golu{
+
+    background: rgb(249,132,255);
+    background: linear-gradient(90deg, rgba(249,132,255,1) 7%, rgba(255,123,226,1) 14%, rgba(255,129,133,1) 21%, rgba(255,3,3,1) 28%, rgba(18,129,0,1) 35%, rgba(63,255,3,1) 42%, rgba(0,195,193,1) 49%, rgba(0,157,152,1) 56%, rgba(32,3,255,1) 63%, rgba(19,0,113,1) 70%, rgba(36,36,36,1) 77%, rgba(0,0,0,1) 84%, rgba(249,132,255,1) 91%, rgba(249,132,255,1) 98%);
+    background-clip: text;
+    color: transparent;
+display: inline-block;
+
+background-size: 600% 100%;
+
+
+    margin: auto;
+    font-size: 25px;
+    margin-bottom: 30px;
+
+letter-spacing: 1px;
+
+animation: 30s infinite golu;
+
+}
+
+@keyframes golu{
+0%{
+background-position: left;
+}
+100%{
+background-position: right;
+
+}
+
+}
+#Step{
+font-size: 20px;
+color: pink;
+margin-top: 1px;
+margin-bottom: 0px;
+
+
+
+
+}
+
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  body {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
